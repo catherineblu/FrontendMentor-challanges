@@ -14,7 +14,22 @@
 }
 body{
     background-color: var(--backgroundColor);
-    background-image: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
+
+}
+.background-image_top{
+    position: absolute;
+    bottom: 220px;
+    right: 750px;
+
+    background-repeat: no-repeat;
+}
+.background-image_bottom{
+    position: absolute;
+    left: 690px;
+    top: 371px;
+
+    background-repeat: no-repeat;
+
 }
 h2{
     font-size: 1rem;
@@ -33,6 +48,7 @@ h4{
 }
 .container{
     max-width: 1440px;
+    max-height: 750px;
 }
 .card{
     position: absolute;
@@ -41,6 +57,7 @@ h4{
     top: 173px;
     border-radius: 15px;
     max-width: 350px;
+    box-shadow: 0px 4px 34px 9px rgba(0, 0, 0, 0.25);
 }
 #profile-pic{
     position: absolute;
@@ -111,6 +128,13 @@ align-items: center;
 }
 .card-footer_photos h2{
     padding-bottom: 7px;
+}
+.attribution{
+    
+}
+.attribution a{
+    text-decoration: none;
+    color: var(--textColor);
 }
 
 
