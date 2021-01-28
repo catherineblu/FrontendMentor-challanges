@@ -16,20 +16,20 @@ body{
     background-color: var(--backgroundColor);
 
 }
-.background-image_top{
+.background{
+    max-width: 1440px;
+    max-height: 750px;
+
+}
+#top{
     position: absolute;
     bottom: 220px;
     right: 750px;
-
-    background-repeat: no-repeat;
 }
-.background-image_bottom{
+#bottom{
     position: absolute;
     left: 690px;
-    top: 371px;
-
-    background-repeat: no-repeat;
-
+    top: 370px;
 }
 h2{
     font-size: 1rem;
@@ -86,7 +86,7 @@ h4{
 .card-body_town{
     padding-top: 12px;
     display: block;
-    padding-bottom: 26px;
+    padding-bottom: 20px;
     font-weight: 400;
 }
 .card-header img{
@@ -102,8 +102,8 @@ h4{
     width: 100%;
     display: flex;
     justify-content: space-around;
-    padding-top: 28px;
-    padding-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom: 13px
 }
 .card-footer_followers{
 display: flex;
@@ -130,7 +130,8 @@ align-items: center;
     padding-bottom: 7px;
 }
 .attribution{
-    
+    position: absolute;
+    bottom: 0;
 }
 .attribution a{
     text-decoration: none;
