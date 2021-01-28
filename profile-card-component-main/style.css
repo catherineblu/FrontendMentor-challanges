@@ -13,3 +13,6 @@ body{
 .container{
     max-width: 1440px;
 }
+.card{
+    max-width: 350px;
+}
