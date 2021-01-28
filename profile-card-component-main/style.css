@@ -10,6 +10,18 @@ body{
     font-family: 'Kumbh Sans', sans-serif;
     background-color: var(--backgroundColor);
 }
+h2{
+    font-size: 1rem;
+    color: var(--textColor);
+}
+h3{
+    font-size: 0.7rem;
+    color: var(--secondaryTextColor);
+}
+h4{
+    font-size: 0.6rem;
+    color: var(--secondaryTextColor);
+}
 .container{
     max-width: 1440px;
 }
