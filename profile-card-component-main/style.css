@@ -44,32 +44,11 @@ h4{
     border-radius: 15px;
     max-width: 350px;
 }
-
-/*#top{
-    position: absolute;
-    right: 748px;
-    top: -200px;
-}
-#bottom{
-    position: absolute;
-    top: 350px;
-    left: 748px;
-}
-
-.card{
-    position: absolute;
-    left: 545px;
-    top: 173px;
-    background-color: white !important;
-    border-radius: 15px;
-    max-width: 350px;
-}
 #profile-pic{
     position: absolute;
     border: 5px solid white;
     top: 95px;
     left: 126px;
-
     border-radius: 100%;
 }
 .card-body{
@@ -86,6 +65,24 @@ h4{
     padding-bottom: 30px;
     font-weight: 400;
 }
+.card-header img{
+    object-fit: fill;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+}
+
+/*#top{
+    position: absolute;
+    right: 748px;
+    top: -200px;
+}
+#bottom{
+    position: absolute;
+    top: 350px;
+    left: 748px;
+}
+
+
 .card-footer{
     display: flex;
     justify-content: space-around;
