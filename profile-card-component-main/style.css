@@ -6,6 +6,9 @@
   }
 
 body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-size: 18px;
     font-family: 'Kumbh Sans', sans-serif;
     background-color: var(--backgroundColor);
@@ -24,13 +27,13 @@ h4{
 }
 #top{
     position: absolute;
-    left: -200px;
+    right: 748px;
     top: -200px;
 }
 #bottom{
     position: absolute;
-    right: -200px;
-    bottom: -200px;
+    top: 350px;
+    left: 748px;
 }
 .container{
     max-width: 1440px;
@@ -43,7 +46,7 @@ h4{
     border-radius: 15px;
     max-width: 350px;
 }
-#victor{
+#profile-pic{
     position: absolute;
     border: 5px solid white;
     top: 95px;
@@ -53,13 +56,23 @@ h4{
 }
 .card-body{
     display: flex;
-    
+    align-items: center;
+    flex-direction: column;
+    padding-top: 75px;
 }
 .card-body_name{
     display: flex;
 }
+.card-body_town{
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    font-weight: 400;
+}
 .card-footer{
     display: flex;
     justify-content: space-around;
+    margin-top: 28px;
+    margin-bottom: 28px;
     border-top:1px solid #969696;
 }
