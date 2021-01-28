@@ -59,8 +59,11 @@ h4{
 }
 .card-body_name{
     display: flex;
+    max-width: 134px;
+    padding-bottom: 12px;
 }
 .card-body_town{
+    padding-top: 12px;
     display: block;
     padding-bottom: 30px;
     font-weight: 400;
@@ -70,29 +73,16 @@ h4{
     border-top-left-radius:15px;
     border-top-right-radius:15px;
 }
-
-/*#top{
-    position: absolute;
-    right: 748px;
-    top: -200px;
-}
-#bottom{
-    position: absolute;
-    top: 350px;
-    left: 748px;
-}
-
-
-.card-footer{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 28px;
-    padding-bottom: 28px;
-}
 .line{
     background-color: #e7E7E7;
     height: 0.5px;
 }
-.footer-followers{
+.card-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 28px;
+    padding-bottom: 25px;
+}
 
-}*/
+
