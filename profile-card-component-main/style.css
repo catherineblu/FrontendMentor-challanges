@@ -14,23 +14,33 @@
 }
 body{
     background-color: var(--backgroundColor);
+    background-image: url('./images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat;
+    background-position: top 5px;
 
+}
+.container{
+    max-width: 1440px;
+    max-height: 750px;
 }
 .background{
     max-width: 1440px;
-    max-height: 750px;
-
+    max-height: 750px !important;
+    overflow: hidden;
+    
 }
-#top{
+/*#top{
     position: absolute;
     bottom: 220px;
     right: 750px;
 }
+
 #bottom{
     position: absolute;
     left: 690px;
     top: 370px;
-}
+}*/
+
 h2{
     font-size: 1rem;
     color: var(--textColor);
@@ -45,10 +55,6 @@ h4{
     color: var(--secondaryTextColor);
     letter-spacing: 1px;
     font-weight: lighter;  
-}
-.container{
-    max-width: 1440px;
-    max-height: 750px;
 }
 .card{
     position: absolute;
