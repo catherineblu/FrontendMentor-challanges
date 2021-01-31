@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 :root {
-    --backgroundColor: #19a2ae; /*Background color*/
-    --textColor: #2d3248; /*Text color*/
-    --secondaryTextColor:#6a6f81; /*Secondary Text*/
+    --backgroundViolet: #af67e9; /*Background violet*/
+    --backgroundBlue: #6565e7; /*Background blue*/
+    --textDarkBlue: #4a4b5e; /*Text dark blue*/
+    --textDarGraykBlue: #6565e7; /*Text dark blue*/
+    --textDesBlue: #1d1e35;
+    --textSoftRed: #f47c57;
+    --dividerGray: #e7e7e9; /*Divider*/
   }
 
 *{
