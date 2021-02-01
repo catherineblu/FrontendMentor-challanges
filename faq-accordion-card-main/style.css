@@ -15,19 +15,10 @@
     box-sizing: border-box;
     font-size: 12px;
     font-family: 'Kumbh Sans', sans-serif;
-}
-body{
-    
-
+    background-color: var(--backgroundViolet);
 }
 .container{
     max-width: 1440px;
-    
 }
-.illustration{
 
-}
-.box{
-    position: absolute;
-    left: 10px;
-}
+
