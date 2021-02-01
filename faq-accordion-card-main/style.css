@@ -1,59 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 :root {
-    --backgroundViolet: #af67e9; /*Background violet*/
-    --backgroundBlue: #6565e7; /*Background blue*/
-    --textDarkBlue: #4a4b5e; /*Text dark blue*/
-    --textDarGraykBlue: #6565e7; /*Text dark blue*/
-    --textDesBlue: #1d1e35;
-    --textSoftRed: #f47c57;
-    --dividerGray: #e7e7e9; /*Divider*/
-  }
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 12px;
-    font-family: 'Kumbh Sans', sans-serif;
+  --backgroundViolet: #af67e9; /*Background violet*/
+  --backgroundBlue: #6565e7; /*Background blue*/
+  --textDarkBlue: #4a4b5e; /*Text dark blue*/
+  --textDarGraykBlue: #6565e7; /*Text dark blue*/
+  --textDesBlue: #1d1e35;
+  --textSoftRed: #f47c57;
+  --dividerGray: #e7e7e9; /*Divider*/
 }
-.container{
-    max-width: 1440px;
-    background-color: var(--backgroundViolet);
-    display: flex;
-    align-items: center;
-    padding: 130px 260px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-family: "Kumbh Sans", sans-serif;
 }
 h1{
-    font-size: 36px;
+    font-size: 3rem;
+    font-weight: 700;
 }
 p{
-    font-size: 14px;
+    font-size: 1.16rem;
 }
-.illustration{
-    display: block;
-    margin-top: 72px;
+.container {
+  max-width: 1440px;
+  background-color: violet;
 }
-#box{
-    position: absolute;
-    left: 170px;
-    top: 300px;
+.box-wrapper {
+  position: fixed;
+  max-width: 64%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  display: flex;
 }
-#woman{
-    position: relative;
-}
-
-.box-wrapper{
-    background-image: url('./images/bg-pattern-desktop.svg');
-    background-repeat: no-repeat;
-    background-size: 950px;
-    background-position: -500px;
+.accordion {
     display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border: none;
+    outline: none;
+    padding: 20px auto 20px;
     background-color: white;
-    border-radius: 20px;
-
 }
-.faq-wrapper{
-    padding: 72px 100px 85px 85px;
+.accordion img{
+    padding-right: 5px;
 }
-
 
