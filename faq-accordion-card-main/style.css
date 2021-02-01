@@ -32,23 +32,23 @@ p{
 .illustration{
     display: block;
     margin-top: 72px;
-    background-image: url('./images/bg-pattern-desktop.svg');
-    background-repeat: no-repeat;
-    
 }
 #box{
     position: absolute;
     left: 170px;
-    top: 200px;
+    top: 300px;
 }
 #woman{
     position: relative;
 }
 
 .box-wrapper{
+    background-image: url('./images/bg-pattern-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 950px;
+    background-position: -500px;
     display: flex;
     background-color: white;
-   
     border-radius: 20px;
 
 }
