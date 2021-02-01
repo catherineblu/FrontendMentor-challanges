@@ -15,10 +15,29 @@
     box-sizing: border-box;
     font-size: 12px;
     font-family: 'Kumbh Sans', sans-serif;
-    background-color: var(--backgroundViolet);
 }
 .container{
     max-width: 1440px;
+    background-color: var(--backgroundViolet);
+}
+h1{
+    font-size: 36px;
+}
+.girl-and-box{
+    display: flex;
+    flex-direction: row-reverse;
+}
+#box{
+    position: absolute;
+}
+#pattern{
+    position: absolute;
+}
+.box-wrapper{
+    display: flex;
+    background-color: white;
+    max-width: 920px;
+    border-radius: 20px;
 }
 
 
