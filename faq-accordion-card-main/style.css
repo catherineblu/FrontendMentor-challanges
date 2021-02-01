@@ -19,25 +19,41 @@
 .container{
     max-width: 1440px;
     background-color: var(--backgroundViolet);
+    display: flex;
+    align-items: center;
+    padding: 130px 260px;
 }
 h1{
     font-size: 36px;
 }
-.girl-and-box{
-    display: flex;
-    flex-direction: row-reverse;
+p{
+    font-size: 14px;
+}
+.illustration{
+    display: block;
+    margin-top: 72px;
+    background-image: url('./images/bg-pattern-desktop.svg');
+    background-repeat: no-repeat;
+    
 }
 #box{
     position: absolute;
+    left: 170px;
+    top: 200px;
 }
-#pattern{
-    position: absolute;
+#woman{
+    position: relative;
 }
+
 .box-wrapper{
     display: flex;
     background-color: white;
-    max-width: 920px;
+   
     border-radius: 20px;
+
+}
+.faq-wrapper{
+    padding: 72px 100px 85px 85px;
 }
 
 
