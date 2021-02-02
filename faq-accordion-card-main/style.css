@@ -14,6 +14,9 @@
   font-size: 12px;
   font-family: "Kumbh Sans", sans-serif;
 }
+body{
+    background-color: var(--backgroundViolet);
+}
 h1{
     font-size: 3rem;
     font-weight: 700;
@@ -23,16 +26,16 @@ p{
 }
 .container {
   max-width: 1440px;
-  background-color: violet;
 }
 .box-wrapper {
   position: fixed;
-  max-width: 64%;
+  
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 20px;
   display: flex;
+  background-color: white !important;
 }
 .accordion {
     display: flex;
@@ -42,6 +45,7 @@ p{
     outline: none;
     padding: 20px auto 20px;
     background-color: white;
+    border-bottom: 0.5px var(--dividerGray);
 }
 .accordion img{
     padding-right: 5px;
