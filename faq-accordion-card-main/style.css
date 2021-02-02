@@ -27,20 +27,24 @@ p{
 .container {
   max-width: 1440px;
 }
+
 .illustration{
-    width: 50%;
+    width: 460px;
+    height: 100%;
+    float: left;
+    background-image: url(./images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: -572px -295px ;
 }
 .box-wrapper {
   position: fixed;
-  padding-top: 72px;
+  
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 20px;
   display: flex;
   background-color: white !important;
-  background-image: url('./images/bg-pattern-desktop.svg');
-  
 }
 .accordion {
     display: flex;
@@ -62,7 +66,8 @@ p{
     top: 185px;
 }
 #woman{
-    position: relative;
-    top: -15px;
-    left: -70px;
+    margin: 70px 0 0 -80px;
+}
+.faq-wrapper{
+    margin-top: 72px;
 }
