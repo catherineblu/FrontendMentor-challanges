@@ -85,4 +85,38 @@ p {
 .stars {
   padding-right: 35px;
 }
+
+#1 {
+  margin-left: 18px;
+}
+
+#2 {
+  margin-left: 65px;
+}
+
+#3 {
+  margin-left: 112px;
+}
+
+.bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.testimonials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.testimonial {
+  background-color: #502050;
+}
+
+.testimonial img {
+  width: 41px;
+  height: 41px;
+  border-radius: 100%;
+}
 /*# sourceMappingURL=style.css.map */

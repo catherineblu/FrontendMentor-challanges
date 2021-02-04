@@ -67,5 +67,27 @@ p{
 }
 .stars{
     padding-right: 35px;
-
+}
+#1{
+    margin-left: 18px;
+}
+#2{
+    margin-left: 65px;
+}
+#3{
+    margin-left: 112px;
+}
+.bottom{
+    display: flex;
+}
+.testimonials{
+    display: flex;
+}
+.testimonial{
+    background-color: $veryDarkMagenta;
+}
+.testimonial img{
+    width: 41px;
+    height: 41px;
+    border-radius: 100%;
 }
