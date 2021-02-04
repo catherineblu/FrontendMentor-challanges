@@ -16,13 +16,25 @@ h1{
     color: $veryDarkMagenta;
     line-height: 50px;
 }
+h3{
+    font-size: 0.87rem;
+    font-weight: 400;
+    color: $justWhite;
+    line-height: 24px;
+}
+h4{
+    font-size: 0.87rem;
+    font-weight: 400;
+    color: $softPink;
+    line-height: 24px;
+    letter-spacing: 0.5%;
+}
 p{
     font-size: 1rem;
     font-weight: 400;
     color: $veryDarkMagenta;
     line-height: 24px;
     letter-spacing: -3%;
-    
 }
 
 *{
@@ -31,14 +43,19 @@ p{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Spartan', sans-serif;
+    
 }
-.container{
-    max-width: 1440px;
+body{
     background-image: url('./images/bg-pattern-top-desktop.svg'), url('./images/bg-pattern-bottom-desktop.svg');
     background-repeat: no-repeat;
     width: 100%;
+}
+.container{
+    max-width: 1440px;
+    
     display: flex;
     flex-direction: column;
+    
 }
 .top{
     display: flex;
@@ -47,7 +64,7 @@ p{
     justify-content: space-between;
 }
 .heading-paragraph{
-    max-width: 450px;
+    width: 450px;
 }
 .heading-paragraph h1{
     padding-bottom: 12px;
@@ -55,7 +72,7 @@ p{
 .rates{
     display: flex;
     flex-direction: column;
-    max-width: 555px;
+    width: 555px;
 }
 .rate{
     display: flex;
@@ -82,12 +99,27 @@ p{
 }
 .testimonials{
     display: flex;
+    padding-top: 60px;
+    justify-content: space-between;
+    padding-left: 165px;
 }
 .testimonial{
     background-color: $veryDarkMagenta;
+    width: 350px;
+    margin-right: 20px;
+}
+.testimonial p{
+    color: $justWhite;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -1%;
 }
 .testimonial img{
     width: 41px;
     height: 41px;
     border-radius: 100%;
+    margin-right: 30px;;
+}
+.personal-info{
+    display: flex;
 }
