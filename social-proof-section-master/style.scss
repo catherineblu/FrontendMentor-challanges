@@ -41,6 +41,23 @@ p{
     padding-top: 130px;
     padding-left: 165px;
 }
+.heading-paragraph{
+    max-width: 430px;
+}
+.rates{
+    display: flex;
+    flex-direction: column;
+    max-width: 555px;
+}
 .rate{
     display: flex;
+    justify-content: space-between;
+    background-color: $lightMagenta;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding: 19px 87px 16px 30px;
+}
+.stars{
+    padding-right: 35px;
+
 }
