@@ -5,12 +5,15 @@ h1 {
   font-size: 3rem;
   font-weight: 700;
   color: #502050;
+  line-height: 50px;
 }
 
 p {
   font-size: 1rem;
   font-weight: 400;
   color: #502050;
+  line-height: 24px;
+  letter-spacing: -3%;
 }
 
 * {
@@ -42,10 +45,17 @@ p {
   display: flex;
   padding-top: 130px;
   padding-left: 165px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .heading-paragraph {
-  max-width: 430px;
+  max-width: 450px;
+}
+
+.heading-paragraph h1 {
+  padding-bottom: 12px;
 }
 
 .rates {

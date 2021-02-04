@@ -14,11 +14,15 @@ h1{
     font-size: 3rem;
     font-weight: 700;
     color: $veryDarkMagenta;
+    line-height: 50px;
 }
 p{
     font-size: 1rem;
     font-weight: 400;
     color: $veryDarkMagenta;
+    line-height: 24px;
+    letter-spacing: -3%;
+    
 }
 
 *{
@@ -40,9 +44,13 @@ p{
     display: flex;
     padding-top: 130px;
     padding-left: 165px;
+    justify-content: space-between;
 }
 .heading-paragraph{
-    max-width: 430px;
+    max-width: 450px;
+}
+.heading-paragraph h1{
+    padding-bottom: 12px;
 }
 .rates{
     display: flex;
