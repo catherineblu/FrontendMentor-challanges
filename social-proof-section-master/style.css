@@ -137,6 +137,8 @@ body {
   background-color: #502050;
   width: 350px;
   margin-right: 20px;
+  padding: 46px 38px 38px 30px;
+  border-radius: 8px;
 }
 
 .testimonial p {
@@ -144,6 +146,7 @@ body {
   font-weight: 400;
   line-height: 20px;
   letter-spacing: -1%;
+  padding-top: 29px;
 }
 
 .testimonial img {
