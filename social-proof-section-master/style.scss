@@ -1,0 +1,31 @@
+/*Primary*/
+
+$veryDarkMagenta: #502050;
+$softPink: #EE68A4;
+
+/*Secondary*/
+$grayishMagenta: #937B92;
+$lightMagenta: #F7F2F7;
+$justWhite: #FFFFFF;
+
+/*Typography*/
+
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: $veryDarkMagenta;
+}
+
+*{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+.container{
+    max-width: 1440px;
+    background-image: url('./images/bg-pattern-top-desktop.svg'), url('./images/bg-pattern-bottom-desktop.svg');
+    background-repeat: no-repeat;
+    width: 100%;
+}
