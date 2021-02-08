@@ -1,6 +1,9 @@
-:root{
-    
-}
+    :root{
+        --darkBlue:	#48556A; 
+        --desBlue: #6D7F97;
+        --grayishBlue: #9EAFC2;
+        --lightBlue: #ECF2F8;
+    }
 
 *{
     box-sizing: border-box;
