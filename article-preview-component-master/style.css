@@ -30,6 +30,8 @@ h5{
 p{
     font-size: 1rem;
     color: var(--grayishBlue);
+    letter-spacing: 0.4px;
+    padding-top: 10px;
 }
 .container{
     max-width: 1440px;
@@ -37,21 +39,24 @@ p{
     align-items: center;
     padding-top: 200px;
     padding-left: 345px;
+    position: relative;
 }
 .content-box{
-    max-width: 730px;
+    
     display: flex;
     background-color: white;
     border-radius: 10px;
-    overflow:hidden;
+    overflow:hidden !important; 
 }
 .showcase-img{
     max-width: 350px;
 }
 .right{
     background-color: white;
-    /*width: 445px;*/
-    width: 100%;
+    
+    width: 445px;
+    
+    
     padding: 45px 40px 60px 30px;
 }
 .user-box{
