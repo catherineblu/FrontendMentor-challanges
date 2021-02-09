@@ -100,5 +100,22 @@ p{
     position: relative;
     left: 8px;
 }
+.tooltip{
+    position: absolute;
+    background-color: var(--darkBlue);
+    padding: 15px 40px;
+    border-radius: 10px;
+}
+.tooltip-content{
+    display: flex;
+}
+div .arrow-down {
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid var(--darkBlue);
+	position: absolute;
+	right: 92px;
+	bottom: -10px;
+}
 
 
