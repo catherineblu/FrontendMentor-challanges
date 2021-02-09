@@ -21,6 +21,16 @@ h2{
     letter-spacing: 2px;
     color: #3F4551;
 }
+h3{
+    font-size: 1rem;
+    color: #3F4551;
+    
+}
+h4{
+    font-size: 1rem;
+    font-weight: lighter;
+    color: var(--grayishBlue);
+}
 h5{
     font-size: 1rem;
     font-weight: lighter;
@@ -33,6 +43,7 @@ p{
     color: var(--grayishBlue);
     letter-spacing: 0.4px;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 .container{
     max-width: 1440px;
@@ -61,6 +72,7 @@ p{
 }
 .user-box{
     display: flex;
+    padding-top: 30px;
 }
 .user-box .user{
     border-radius: 100%;
@@ -70,18 +82,23 @@ p{
 .user-info{
     display: flex;
     flex-direction: column;
+    padding-left: 17px;
 }
 .icon-box{
     position: relative;
     display: flex;
     align-items: center;
-    background-color: var(--darkBlue);
+    background-color: var(--grayishBlue);
     border-radius: 100%;
     width: 30px;
     height: 30px;
+    left: 250px;
+    bottom: -10px;
+    cursor: pointer;
 }
 .icon-box img{
     position: relative;
     left: 8px;
 }
+
 
