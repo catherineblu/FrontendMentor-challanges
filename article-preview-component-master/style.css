@@ -102,9 +102,12 @@ p{
 }
 .tooltip{
     position: absolute;
+    right: 240px;
+    bottom: 125px;
     background-color: var(--darkBlue);
     padding: 15px 40px;
     border-radius: 10px;
+    
 }
 .tooltip-content{
     display: flex;
