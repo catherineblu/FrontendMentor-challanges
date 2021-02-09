@@ -23,7 +23,7 @@ h5{
     font-size: 1rem;
     font-weight: lighter;
     text-transform: uppercase;
-    letter-spacing: 40%;
+    letter-spacing: 5px;
     color: var(--grayishBlue);
 }
 p{
@@ -58,10 +58,34 @@ p{
     width: 40px;
     height: 40px;
 }
-.social-media{
+/*.social-media{
+    position: relative;
     background-color: var(--darkBlue);
     display: flex;
-    padding: 35px;
+    padding: 20px 35px;
+    
     border-radius: 10px;
+    justify-content: space-around;
+}
+.social-media img{
+    padding-left: 20px;
+}*/
+.social-media{
+    display: flex;
+    background-color: var(--darkBlue);
+    border-radius: 10px;
+}
+/*.tooltip{
+    position: relative;
+}
+.tooltip .tooltip-content{
+    /*visibility: hidden;*/
+    /*position: absolute;*/
+    /*z-index: 1;*/
+}
+/*.tooltip-content{
+    display: flex;
+    padding: 20px 35px;
+    
     justify-content: space-around;
 }
