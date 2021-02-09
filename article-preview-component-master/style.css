@@ -9,4 +9,31 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Manrope', sans-serif;
+    
+}
+body{
+    background-color: var(--lightBlue);
+}
+.container{
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+}
+.content-box{
+    max-width: 730px;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+}
+.showcase-img{
+    max-width: 285px;
+}
+.right{
+    background-color: white;
+}
+.user-box img{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
 }
