@@ -100,18 +100,26 @@ p{
     position: relative;
     left: 8px;
 }
+
+
 .tooltip{
+
     position: absolute;
     width: 245px;
     right: 222px;
-    bottom: 125px;
+    bottom: 110px;
     background-color: var(--darkBlue);
     padding: 15px 40px;
     border-radius: 10px;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
 }
+
+
+
+
 .tooltip-content{
     display: flex;
+    
 }
 .tooltip img{
     margin-right: 15px;
@@ -126,6 +134,16 @@ div .arrow-down {
 	position: absolute;
 	right: 110px;
 	bottom: -10px;
+}
+
+
+.attribution{
+    position: absolute;
+    bottom: 0;
+}
+.attribution a{
+    text-decoration: none;
+    color: var(--darkBlue);
 }
 
 
