@@ -88,7 +88,7 @@ p{
 .share-btn{
     position: relative;
     border-radius: 100%;
-    background-color: var(--grayishBlue);
+    background-color: var(--desBlue);
     border: none;
     outline: none;
     width: 30px;
@@ -112,11 +112,6 @@ p{
     display: none;
 }
 
-
-
-
-
-
 .tooltip-content{
     display: flex;
     
@@ -135,8 +130,6 @@ div .arrow-down {
 	right: 110px;
 	bottom: -10px;
 }
-
-
 .attribution{
     position: absolute;
     bottom: 0;
