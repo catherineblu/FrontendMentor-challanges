@@ -138,5 +138,14 @@ div .arrow-down {
     text-decoration: none;
     color: var(--darkBlue);
 }
+@media screen and (min-width: 780px){
+    .container{
+        flex-direction: row;
+            margin: auto;
+            width: 100%;
+            max-width: 760px;
+            overflow: visible;
+    }
+}
 
 
