@@ -11,3 +11,6 @@ body{
     background-image: url('./images/pattern-bg.svg');
     background-repeat: no-repeat;
 }
+.myslide{
+    display: flex;
+}
