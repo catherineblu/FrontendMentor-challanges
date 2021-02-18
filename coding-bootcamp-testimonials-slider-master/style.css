@@ -13,4 +13,5 @@ body{
 }
 .myslide{
     display: flex;
+    flex-direction: row-reverse;
 }
