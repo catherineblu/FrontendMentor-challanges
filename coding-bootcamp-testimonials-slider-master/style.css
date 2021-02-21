@@ -14,5 +14,5 @@ body{
 .myslide{
     display: flex;
     flex-direction: row-reverse;
-    color: red;
+    background-position: right;
 }
