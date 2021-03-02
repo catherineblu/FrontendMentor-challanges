@@ -16,3 +16,11 @@ body{
     flex-direction: row-reverse;
     background-position: right;
 }
+.personal-info{
+    display: flex;
+}
+.btn{
+    padding: 10px;
+    border: none;
+    border-radius: 100px;
+}
